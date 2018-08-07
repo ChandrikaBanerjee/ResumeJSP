@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="MyServletCode" method="get">
+<table>
+<tr>
+<td>First Name : </td>
+<td><input type="text" id="fname" name="fname" required></td>
+</tr>
+
+<tr>
+<td>Last Name : </td>
+<td><input type="text" id="lname" name=lname""></td>
+</tr>
+
+<tr>
+<td>Gender : </td>
+<td><input type="radio" name="gender" value="Male" required>Male </td>
+<td><input type="radio" name="gender" value="Female">Female </td>
+</tr>
+
+<tr>
+<td>Date Of Birth : </td>
+<td><input type="date" name="dob" id="dob" required></td>
+</tr>
+
+<tr>
+<td>Address : </td>
+<td><textArea rows=4 cols=20 required>
+Enter Your Address
+</textArea>
+</td>
+</tr>
+<tr>
+<td>Hobbies</td>
+<td><input type="checkbox" name="hobbies" value="Dancing" required>Dancing</td>
+<td><input type="checkbox" name="hobbies" value="Singing">Singing</td>
+<td><input type="checkbox" name="hobbies" value="Talking">Talking</td>
+</select>
+</td></tr>
+
+<tr>
+<td>Highest Qualification</td>
+<td><select name="hq" required>
+<option value="Twelve">Twelve</option>
+<option value="Graduation">Graduation</option>
+<option value="PostGraduation">Post Graduation</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Skills</td>
+<td><input type="checkbox" name="skills" value="Java" required>Java</td>
+<td><input type="checkbox" name="skills" value="C++">C++</td>
+<td><input type="checkbox" name="skills" value="Python">Python</td>
+</tr>
+
+<tr>
+<td>E-Mail</td>
+<td><input type="email" name="email" id="email" required></td></tr>
+
+<tr>
+<td>Website</td>
+<td><input type="url" name="website" id="website" required></td></tr>
+
+<tr>
+<td>Contact Number</td>
+<td><input type="number" name="contact" value="contact" required></td>
+</tr>
+
+<tr>
+<td>Summary</td>
+<td><textArea rows=4 cols=20 name="summary" required>
+</textArea>
+</td>
+</tr>
+<tr>
+<td><input type="reset" id="reset" name="reset" value="Clear"></td>
+<td><input type="submit" id="submit" name="submit" value="Submit"></td></tr>
+
+<tr>
+<td>Upload Picture</td>
+<td><input type="file" name="Pic" id="file"></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
